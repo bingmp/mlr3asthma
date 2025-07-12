@@ -51,3 +51,33 @@ logistics regression, as well as shap analysis and more.
     ## [1] "step_01_upset.R"       "step_02_coDEGS_exp.R"  "step_03_5fold_cross.R"
     ## [4] "step_04_train_test.R"  "step_05_machlearn.R"   "step_06_logis.R"      
     ## [7] "step_07_DCA.R"         "step_08_rf_shap.R"
+
+    sessionInfo()
+
+    ## R version 4.5.1 (2025-06-13)
+    ## Platform: x86_64-pc-linux-gnu
+    ## Running under: Ubuntu 22.04.5 LTS
+    ## 
+    ## Matrix products: default
+    ## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.10.0 
+    ## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.10.0  LAPACK version 3.10.0
+    ## 
+    ## locale:
+    ##  [1] LC_CTYPE=zh_CN.UTF-8       LC_NUMERIC=C              
+    ##  [3] LC_TIME=zh_CN.UTF-8        LC_COLLATE=zh_CN.UTF-8    
+    ##  [5] LC_MONETARY=zh_CN.UTF-8    LC_MESSAGES=zh_CN.UTF-8   
+    ##  [7] LC_PAPER=zh_CN.UTF-8       LC_NAME=C                 
+    ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+    ## [11] LC_MEASUREMENT=zh_CN.UTF-8 LC_IDENTIFICATION=C       
+    ## 
+    ## time zone: Asia/Shanghai
+    ## tzcode source: system (glibc)
+    ## 
+    ## attached base packages:
+    ## [1] stats     graphics  grDevices utils     datasets  methods   base     
+    ## 
+    ## loaded via a namespace (and not attached):
+    ##  [1] compiler_4.5.1    fastmap_1.2.0     cli_3.6.5         tools_4.5.1      
+    ##  [5] htmltools_0.5.8.1 rstudioapi_0.17.1 yaml_2.3.10       rmarkdown_2.29   
+    ##  [9] knitr_1.50        xfun_0.52         digest_0.6.37     rlang_1.1.6      
+    ## [13] evaluate_1.0.4
