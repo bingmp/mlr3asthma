@@ -10,7 +10,8 @@ this.path::this.dir() %>%
 rm(list = ls())
 
 exp <- readRDS('RDS/vsdmat.RDS')
-group <- readRDS('RDS/group.RDS')
+group <- readRDS('RDS/group_cluster.RDS')
+group <- subset(group, cluster!="Th2_low")
 
 # 9、correlation
 plot_func <- function(data, group, name_x, name_y) {

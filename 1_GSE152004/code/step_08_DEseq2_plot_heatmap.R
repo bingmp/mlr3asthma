@@ -9,7 +9,8 @@ this.path::this.dir() %>%
 rm(list = ls())
 
 exp <- readRDS('RDS/vsdmat.RDS')
-group <- readRDS('RDS/group.RDS')
+group <- readRDS('RDS/group_cluster.RDS')
+group <- subset(group, cluster!="Th2_low")
 
 co_DEGs <- c(
   "SCGB1A1",

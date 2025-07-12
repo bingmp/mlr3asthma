@@ -2,8 +2,6 @@ if (!require("magrittr")) BiocManager::install("magrittr")
 if (!require("ggplot2")) BiocManager::install("ggplot2")
 if (!require("pROC")) install.packages("pROC")
 if (!require("ggpubr")) install.packages("ggpubr")
-if (!require("FactoMineR")) install.packages("FactoMineR")
-if (!require("factoextra")) install.packages("factoextra")
 if (!require("DESeq2")) install.packages("DESeq2")
 
 this.path::this.dir() %>%
@@ -13,7 +11,8 @@ this.path::this.dir() %>%
 rm(list = ls())
 
 exp <- readRDS('RDS/vsdmat.RDS')
-group <- readRDS('RDS/group.RDS')
+group <- readRDS('RDS/group_cluster.RDS')
+group <- subset(group, cluster!="Th2_low")
 
 co_DEGs <- c(
   "SCGB1A1",
