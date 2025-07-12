@@ -36,7 +36,7 @@ and heat maps, and more.
     ## [7] "step_05_plot_PCA.R"        "step_05_plot_ROC.R"       
     ## [9] "step_05_plot_volcano.R"
 
-## mlr3
+## Mlr3
 
 The folder named mlr3 is the main bit of the dataset federated data
 analysis process, including machine learning such as random forests and
@@ -51,6 +51,8 @@ logistics regression, as well as shap analysis and more.
     ## [1] "step_01_upset.R"       "step_02_coDEGS_exp.R"  "step_03_5fold_cross.R"
     ## [4] "step_04_train_test.R"  "step_05_machlearn.R"   "step_06_logis.R"      
     ## [7] "step_07_DCA.R"         "step_08_rf_shap.R"
+
+## Packages infomation
 
     sessionInfo()
 
