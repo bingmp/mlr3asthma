@@ -1,3 +1,4 @@
+
 if(!require(FactoMineR)) install.packages("FactoMineR")
 if(!require(factoextra)) install.packages("factoextra")
 if(!require(tidyverse)) install.packages("tidyverse")

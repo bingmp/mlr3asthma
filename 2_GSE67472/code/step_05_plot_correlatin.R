@@ -1,3 +1,4 @@
+
 if(!require(ggplot2)) install.packages("ggplot2")
 if(!require(tidyverse)) install.packages("tidyverse")
 
@@ -34,5 +35,5 @@ plot_func <- function(data, group, name_x, name_y){
 
 p <- plot_func(exp, group, name_x="CD44",name_y="CSTA")
 
-ggsave(p, filename = 'CD44_correlation.png', height = 6, width = 6, units = 'cm',dpi = 300)
+ggsave(p, filename = 'result/CD44_correlation.png', height = 6, width = 6, units = 'cm',dpi = 300)
 

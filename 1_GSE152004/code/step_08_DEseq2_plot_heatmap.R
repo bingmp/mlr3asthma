@@ -45,7 +45,7 @@ heatmap_func <- function(data, group){
   return(p)
 }
 
-heatmap_func(data = exp, group = group)
+p <- heatmap_func(data = exp, group = group)
 
-ggsave(filename = 'result/GSE152004 asthma co-DEG heatmap.png',
+ggsave(p,filename = 'result/GSE152004 asthma co-DEG heatmap.PDF',
        height = 8, width = 20,units = 'cm',dpi = 300)
