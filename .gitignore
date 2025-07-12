@@ -5,7 +5,10 @@
 .Ruserdata
 mlr3_asthma.Rproj
 
+.gitignore
+
 *.RDS
 *.Rdata
 *.gz
+
 Readme.Rmd
