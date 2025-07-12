@@ -1,0 +1,34 @@
+---
+title: "Mlr3 Asthma"
+author: "bingmp"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GSE152004
+The folder named GSE152004 is the main bit of the data analysis process for the dataset GSE152004, including WGCNA analysis, differential gene analysis, volcano and heat maps, and more.
+
+```{r}
+list.files('1_GSE152004/')
+list.files('1_GSE152004/code/')
+```
+
+## GSE67472
+The folder named GSE67472 is the main bit of the data analysis process for the dataset GSE67472, including differential gene analysis, volcano and heat maps, and more.
+```{r}
+list.files('2_GSE67472/')
+list.files('2_GSE67472/code/')
+```
+
+## mlr3
+The folder named mlr3 is the main bit of the dataset federated data analysis process, including machine learning such as random forests and logistics regression, as well as shap analysis and more.
+
+```{r}
+list.files('3_mlr3/')
+list.files('3_mlr3/code/')
+```
+
