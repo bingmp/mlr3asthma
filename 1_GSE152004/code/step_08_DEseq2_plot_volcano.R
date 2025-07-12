@@ -36,7 +36,7 @@ for (i in co_DEGs) {
 }
 
 # 画火山图
-ggplot(
+p <- ggplot(
   data = temoutput,
   aes(
     x = log2FoldChange,
@@ -70,6 +70,6 @@ ggplot(
   ) +
   scale_color_manual(values = c("blue", "black", "red")) # 设定颜色
 
-ggsave(height = 6, width = 8, filename = "result/511_control_Th2_high_volcano.PDF") # 输出
+ggsave(p,height = 6, width = 8, filename = "result/511_control_Th2_high_volcano.PDF") # 输出
 
   
